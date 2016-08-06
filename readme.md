@@ -1,6 +1,7 @@
 Notes
 ---
 Easily expose your collections  : 
+
 1. declare your collection in lib/collections.js
 2. allow collection to be exposed via service adding the collection name in the list of allowed resources in settings.json
 3. define validation patterns for your collection in settings.json
