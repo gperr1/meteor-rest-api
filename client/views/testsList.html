@@ -1,0 +1,18 @@
+<template name="testsList">
+	<div class="container">
+		<div class="row" id="clickable">
+			<div class="col-sm-3">id</div>
+			<div class="col-sm-3">TEST</div>
+			<div class="col-sm-3">ROGER</div>
+			<div class="col-sm-3">OWNER</div>
+		</div>
+		{{#each tests}}
+		<div class="row">
+			<div class="col-sm-3">{{_id}}</div>
+			<div class="col-sm-3">{{test}}</div>
+			<div class="col-sm-3">{{roger}}</div>
+			<div class="col-sm-3">{{owner}}</div>
+		</div>
+		{{/each}}
+	</div>
+</template>

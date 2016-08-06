@@ -1,0 +1,7 @@
+<template name="home">
+	<h1>Hi!</h1>
+	<div>Welcome to API. API aims at exposing Meteor collections in rest format.</div> 
+	{{#if currentUser}}
+	<div><a href="{{pathFor 'apiKey'}}">See my API Key</a></div>
+	{{/if}}
+</template>

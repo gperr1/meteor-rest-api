@@ -1,0 +1,15 @@
+{
+  "private": {
+    "api":{
+    	"allowed_resources": ["Test"]
+    },
+	"Test" : {
+		"POSTValidationPattern": "{ \"test\": String, \"roger\": String }", 
+		"PUTValidationPatterns": [
+			"{ \"_id\": String, \"test\": String, \"roger\": String}",
+			"{ \"_id\": String, \"test\": String}", 
+			"{ \"_id\": String, \"roger\": String}" 
+		]
+	}
+  }
+}
